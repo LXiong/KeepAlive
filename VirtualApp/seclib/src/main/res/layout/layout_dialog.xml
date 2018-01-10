@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/text_color"
+            android:text="@string/diaglog_title"/>
+     </RelativeLayout>
+        <View
+            android:id="@+id/title_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center|left"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/text_color"
+            android:text="@string/diaglog_content"/>
+
+        <View
+            android:id="@+id/content_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/diaglog_confirm_btn"
+        android:layout_weight="1"
+        android:onClick="clickConfirm"
+        android:textSize="15sp"
+        android:textColor="@color/text_color"
+        android:background="@drawable/dialog_btn_selector"
+        android:layout_height="45dp" />
+</LinearLayout>

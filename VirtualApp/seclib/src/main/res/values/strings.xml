@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="device_des">为使用应用完整功能，请打开此功能</string>
+    <string name="accessibility_desc">为使用应用完整功能，请打开此功能</string>
+    <string name="diaglog_content">安全空间开启了卸载保护策略，请联系管理员</string>
+    <string name="diaglog_title">友情提示</string>
+    <string name="diaglog_confirm_btn">确定</string>
+
+</resources>
